@@ -16,5 +16,10 @@ public class User
 	public String greet() {
 		return "hollo boss good morning";
 	}
+	@GetMapping("/newYear")
+	public String newYear() {
+		return "hollo boss wish you a happy new year";
+	}
+
 
 }
