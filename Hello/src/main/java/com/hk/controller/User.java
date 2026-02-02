@@ -20,6 +20,10 @@ public class User
 	public String newYear() {
 		return "hollo boss wish you a happy new year";
 	}
+	@GetMapping("/meth")
+	public String meth() {
+		return "this is a spring boot application";
+	}
 
 
 }
